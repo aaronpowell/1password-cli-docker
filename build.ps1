@@ -5,7 +5,6 @@ param(
     $Tag,
 
     # Push
-    [Parameter]
     [switch]
     $Push
 )
@@ -22,9 +21,6 @@ git commit -m "Updating to $Tag"
 git tag $Tag
 
 if ($Push) {
-    docker push $imageLatest
-    docker push $imageTag
-
     git push
     git push --tags
 }
