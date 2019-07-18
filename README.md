@@ -4,7 +4,8 @@ This is the source for making a Docker image that contains the [1Password cli](h
 
 ## Supported tags and respective `Dockerfile` links
 
-* `0.1.1`, `latest` [Dockerfie](https://github.com/aaronpowell/1password-cli-docker/blob/master/Dockerfile)
+- `0.5.7`, `latest` [Dockerfie](https://github.com/aaronpowell/1password-cli-docker/blob/master/Dockerfile)
+- `0.1.1` [Dockerfie](https://github.com/aaronpowell/1password-cli-docker/blob/b342fca0f062100ab675f8251ae503e4809afd56/Dockerfile)
 
 ## License
 
